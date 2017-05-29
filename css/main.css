@@ -1,0 +1,54 @@
+h1 {
+	text-align: center;
+}
+
+.form-group {
+	margin-right: 25px;
+}
+
+.form-group .form-control {
+	width: 300px;
+}
+
+.table thead tr > td {
+	width: 20%;
+	text-align: center;
+	font-weight: 700;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.table thead tr > td:first-child {
+	width: 60%;
+}
+
+.table thead tr td p {
+	display: inline;
+	vertical-align: 55%;
+}
+
+.table thead tr > td div {
+	display: inline-block;
+}
+
+.table thead tr > td .glyphicon-triangle-bottom {
+	display: block;
+}
+
+.table thead tr > td .glyphicon:hover {
+	color: green;
+	cursor: pointer;
+}
+
+.table tbody tr td {
+	text-align: center;
+}
+
+.table tbody tr td:last-child {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.table tbody tr td button {
+	width: 95%;
+}

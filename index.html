@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Favorite Places</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+	
+	<h1>My Favorite Places</h1>
+
+	<form class="form-inline">
+
+		<div class="form-group">
+	    	<label for="place">Place</label>
+	    	<input type="text" class="form-control" id="place" placeholder="Place Name">
+		</div>
+
+	  	<div class="form-group">
+	    	<label for="rating">Rating</label>
+	    	<input type="number" min="0" max="10" class="form-control" id="rating" placeholder="Rate your favorite place from 1 to 10">
+	  	</div>
+
+	  	<button type="button" class="btn btn-default" id="mainButton">Add Place</button>
+
+	</form>
+
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<td><p>Place</p> <div><span class="glyphicon glyphicon-triangle-top"></span><span class="glyphicon glyphicon-triangle-bottom"></span></div></td>
+				<td><p>Rating</p> <div><span class="glyphicon glyphicon-triangle-top"></span><span class="glyphicon glyphicon-triangle-bottom"></span></div></td>
+				<td>Delete</td>
+			</tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+
+
+
+</div>
+
+
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript - Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
